@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Nate\OneDrive\School\SDP\KiCAD\SDP25_MainPCB\SDP25_MainPCB.kicad_sch</source>
+    <date>10/25/2024 12:56:25 PM</date>
+    <tool>Eeschema 7.0.10</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SDP25 Team18 Main PCB</title>
+        <company>UMass Amherst</company>
+        <rev>1</rev>
+        <date>2024-10-23</date>
+        <source>SDP25_MainPCB.kicad_sch</source>
+        <comment number="1" value="Designed by Nathan Robinson"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>22uF</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35c33724-131a-458f-9312-2131f32ce241</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>22uF</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0057454f-880d-4100-accc-99e7b5c08741</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>632f99a1-6f06-4df6-8626-8cc0051cd5d1</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>22uF</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>caca8f41-32c5-49a2-976c-591d9311e085</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>Main V Reg</value>
+      <footprint>AZ1084CDADJTRG1</footprint>
+      <datasheet>https://www.diodes.com//assets/Datasheets/AZ1084C.pdf</datasheet>
+      <fields>
+        <field name="Height">2.527</field>
+        <field name="Manufacturer_Name">Diodes Incorporated</field>
+        <field name="Manufacturer_Part_Number">AZ1084CD-ADJTRG1</field>
+        <field name="Mouser Part Number">621-AZ1084CD-ADJTRG1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZ1084CD-ADJTRG1?qs=FKu9oBikfSnJeRSpRZblQA%3D%3D</field>
+      </fields>
+      <libsource lib="AZ1084CD-ADJTRG1" part="AZ1084CD-ADJTRG1" description="DiodesZetex AZ1084CD-ADJTRG1, LDO Voltage Regulator, Adjustable 5A,, Maximum of 12 Vin, 3-Pin T0-252"/>
+      <property name="Height" value="2.527"/>
+      <property name="Mouser Part Number" value="621-AZ1084CD-ADJTRG1"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZ1084CD-ADJTRG1?qs=FKu9oBikfSnJeRSpRZblQA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Diodes Incorporated"/>
+      <property name="Manufacturer_Part_Number" value="AZ1084CD-ADJTRG1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="DiodesZetex AZ1084CD-ADJTRG1, LDO Voltage Regulator, Adjustable 5A,, Maximum of 12 Vin, 3-Pin T0-252"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62d0e874-b02b-4547-90ce-858cbbedda65</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>LED V Reg 1</value>
+      <footprint>AZ1084CDADJTRG1</footprint>
+      <datasheet>https://www.diodes.com//assets/Datasheets/AZ1084C.pdf</datasheet>
+      <fields>
+        <field name="Height">2.527</field>
+        <field name="Manufacturer_Name">Diodes Incorporated</field>
+        <field name="Manufacturer_Part_Number">AZ1084CD-ADJTRG1</field>
+        <field name="Mouser Part Number">621-AZ1084CD-ADJTRG1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZ1084CD-ADJTRG1?qs=FKu9oBikfSnJeRSpRZblQA%3D%3D</field>
+      </fields>
+      <libsource lib="AZ1084CD-ADJTRG1" part="AZ1084CD-ADJTRG1" description="DiodesZetex AZ1084CD-ADJTRG1, LDO Voltage Regulator, Adjustable 5A,, Maximum of 12 Vin, 3-Pin T0-252"/>
+      <property name="Height" value="2.527"/>
+      <property name="Mouser Part Number" value="621-AZ1084CD-ADJTRG1"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZ1084CD-ADJTRG1?qs=FKu9oBikfSnJeRSpRZblQA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Diodes Incorporated"/>
+      <property name="Manufacturer_Part_Number" value="AZ1084CD-ADJTRG1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="DiodesZetex AZ1084CD-ADJTRG1, LDO Voltage Regulator, Adjustable 5A,, Maximum of 12 Vin, 3-Pin T0-252"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>996273de-2268-44ce-b657-b3bebb596522</tstamps>
+    </comp>
+    <comp ref="IC3">
+      <value>LED V Reg 2</value>
+      <footprint>AZ1084CDADJTRG1</footprint>
+      <datasheet>https://www.diodes.com//assets/Datasheets/AZ1084C.pdf</datasheet>
+      <fields>
+        <field name="Height">2.527</field>
+        <field name="Manufacturer_Name">Diodes Incorporated</field>
+        <field name="Manufacturer_Part_Number">AZ1084CD-ADJTRG1</field>
+        <field name="Mouser Part Number">621-AZ1084CD-ADJTRG1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZ1084CD-ADJTRG1?qs=FKu9oBikfSnJeRSpRZblQA%3D%3D</field>
+      </fields>
+      <libsource lib="AZ1084CD-ADJTRG1" part="AZ1084CD-ADJTRG1" description="DiodesZetex AZ1084CD-ADJTRG1, LDO Voltage Regulator, Adjustable 5A,, Maximum of 12 Vin, 3-Pin T0-252"/>
+      <property name="Height" value="2.527"/>
+      <property name="Mouser Part Number" value="621-AZ1084CD-ADJTRG1"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZ1084CD-ADJTRG1?qs=FKu9oBikfSnJeRSpRZblQA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Diodes Incorporated"/>
+      <property name="Manufacturer_Part_Number" value="AZ1084CD-ADJTRG1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="DiodesZetex AZ1084CD-ADJTRG1, LDO Voltage Regulator, Adjustable 5A,, Maximum of 12 Vin, 3-Pin T0-252"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c4d59c7-2981-4825-a254-d50e0f417b9c</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Battery Conn</value>
+      <footprint>digikey-footprints:PinHeader_1x2_P2.54mm</footprint>
+      <datasheet>https://cdn.harwin.com/pdfs/M20-999.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">https://cdn.harwin.com/pdfs/M20-999.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/harwin-inc/M20-9990246/952-2262-ND/3728226</field>
+        <field name="Description">CONN HEADER VERT 2POS 2.54MM</field>
+        <field name="Digi-Key_PN">952-2262-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">M20-9990246</field>
+        <field name="Manufacturer">Harwin Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="M20-9990246" description="CONN HEADER VERT 2POS 2.54MM"/>
+      <property name="Digi-Key_PN" value="952-2262-ND"/>
+      <property name="MPN" value="M20-9990246"/>
+      <property name="Category" value="Connectors, Interconnects"/>
+      <property name="Family" value="Rectangular Connectors - Headers, Male Pins"/>
+      <property name="DK_Datasheet_Link" value="https://cdn.harwin.com/pdfs/M20-999.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/harwin-inc/M20-9990246/952-2262-ND/3728226"/>
+      <property name="Description" value="CONN HEADER VERT 2POS 2.54MM"/>
+      <property name="Manufacturer" value="Harwin Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="CONN HEADER VERT 2POS 2.54MM"/>
+      <property name="ki_keywords" value="952-2262-ND M20"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0dc47ca7-f7a0-4b8b-b905-2858b9e304c8</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>PCB 1</value>
+      <footprint>digikey-footprints:PinHeader_1x3_P2.5mm_Drill1.1mm</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046</field>
+        <field name="Description">CONN HEADER VERT 3POS 2.5MM</field>
+        <field name="Digi-Key_PN">455-2248-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">B3B-XH-A(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B3B-XH-A_LF__SN_" description="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Digi-Key_PN" value="455-2248-ND"/>
+      <property name="MPN" value="B3B-XH-A(LF)(SN)"/>
+      <property name="Category" value="Connectors, Interconnects"/>
+      <property name="Family" value="Rectangular Connectors - Headers, Male Pins"/>
+      <property name="DK_Datasheet_Link" value="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046"/>
+      <property name="Description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="ki_keywords" value="455-2248-ND XH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b63761b-d14c-49c1-851d-664651d415dc</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>PCB 2</value>
+      <footprint>digikey-footprints:PinHeader_1x3_P2.5mm_Drill1.1mm</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046</field>
+        <field name="Description">CONN HEADER VERT 3POS 2.5MM</field>
+        <field name="Digi-Key_PN">455-2248-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">B3B-XH-A(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B3B-XH-A_LF__SN_" description="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Digi-Key_PN" value="455-2248-ND"/>
+      <property name="MPN" value="B3B-XH-A(LF)(SN)"/>
+      <property name="Category" value="Connectors, Interconnects"/>
+      <property name="Family" value="Rectangular Connectors - Headers, Male Pins"/>
+      <property name="DK_Datasheet_Link" value="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046"/>
+      <property name="Description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="ki_keywords" value="455-2248-ND XH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>835228d6-3f1c-419e-beff-2b4d85d32732</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>PCB 3</value>
+      <footprint>digikey-footprints:PinHeader_1x3_P2.5mm_Drill1.1mm</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046</field>
+        <field name="Description">CONN HEADER VERT 3POS 2.5MM</field>
+        <field name="Digi-Key_PN">455-2248-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">B3B-XH-A(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B3B-XH-A_LF__SN_" description="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Digi-Key_PN" value="455-2248-ND"/>
+      <property name="MPN" value="B3B-XH-A(LF)(SN)"/>
+      <property name="Category" value="Connectors, Interconnects"/>
+      <property name="Family" value="Rectangular Connectors - Headers, Male Pins"/>
+      <property name="DK_Datasheet_Link" value="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046"/>
+      <property name="Description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="ki_keywords" value="455-2248-ND XH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1cb398e-2728-42f4-a755-87bb0860a707</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>PCB 4</value>
+      <footprint>digikey-footprints:PinHeader_1x3_P2.5mm_Drill1.1mm</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046</field>
+        <field name="Description">CONN HEADER VERT 3POS 2.5MM</field>
+        <field name="Digi-Key_PN">455-2248-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">B3B-XH-A(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B3B-XH-A_LF__SN_" description="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Digi-Key_PN" value="455-2248-ND"/>
+      <property name="MPN" value="B3B-XH-A(LF)(SN)"/>
+      <property name="Category" value="Connectors, Interconnects"/>
+      <property name="Family" value="Rectangular Connectors - Headers, Male Pins"/>
+      <property name="DK_Datasheet_Link" value="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046"/>
+      <property name="Description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="ki_keywords" value="455-2248-ND XH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e99453a-540b-4e71-bfba-f68a81bf91e9</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>PCB 5</value>
+      <footprint>digikey-footprints:PinHeader_1x3_P2.5mm_Drill1.1mm</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046</field>
+        <field name="Description">CONN HEADER VERT 3POS 2.5MM</field>
+        <field name="Digi-Key_PN">455-2248-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">B3B-XH-A(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B3B-XH-A_LF__SN_" description="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Digi-Key_PN" value="455-2248-ND"/>
+      <property name="MPN" value="B3B-XH-A(LF)(SN)"/>
+      <property name="Category" value="Connectors, Interconnects"/>
+      <property name="Family" value="Rectangular Connectors - Headers, Male Pins"/>
+      <property name="DK_Datasheet_Link" value="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046"/>
+      <property name="Description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="ki_keywords" value="455-2248-ND XH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>855e9811-6c27-4986-bd66-2f608139e8e0</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>PCB 6</value>
+      <footprint>digikey-footprints:PinHeader_1x3_P2.5mm_Drill1.1mm</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046</field>
+        <field name="Description">CONN HEADER VERT 3POS 2.5MM</field>
+        <field name="Digi-Key_PN">455-2248-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">B3B-XH-A(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B3B-XH-A_LF__SN_" description="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Digi-Key_PN" value="455-2248-ND"/>
+      <property name="MPN" value="B3B-XH-A(LF)(SN)"/>
+      <property name="Category" value="Connectors, Interconnects"/>
+      <property name="Family" value="Rectangular Connectors - Headers, Male Pins"/>
+      <property name="DK_Datasheet_Link" value="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046"/>
+      <property name="Description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="ki_keywords" value="455-2248-ND XH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>703bce28-3912-4e69-a8be-8fb8bd8c2bd9</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>PCB 7</value>
+      <footprint>digikey-footprints:PinHeader_1x3_P2.5mm_Drill1.1mm</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046</field>
+        <field name="Description">CONN HEADER VERT 3POS 2.5MM</field>
+        <field name="Digi-Key_PN">455-2248-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">B3B-XH-A(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B3B-XH-A_LF__SN_" description="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Digi-Key_PN" value="455-2248-ND"/>
+      <property name="MPN" value="B3B-XH-A(LF)(SN)"/>
+      <property name="Category" value="Connectors, Interconnects"/>
+      <property name="Family" value="Rectangular Connectors - Headers, Male Pins"/>
+      <property name="DK_Datasheet_Link" value="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046"/>
+      <property name="Description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="ki_keywords" value="455-2248-ND XH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd96202e-7f7d-43ab-9114-b576b1424181</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>B4B-XH-A_LF__SN_</value>
+      <footprint>digikey-footprints:PinHeader_1x4_P2.5mm_Drill1.1mm</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B4B-XH-A(LF)(SN)/455-2249-ND/1651047</field>
+        <field name="Description">CONN HEADER VERT 4POS 2.5MM</field>
+        <field name="Digi-Key_PN">455-2249-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">B4B-XH-A(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B4B-XH-A_LF__SN_" description="CONN HEADER VERT 4POS 2.5MM"/>
+      <property name="Digi-Key_PN" value="455-2249-ND"/>
+      <property name="MPN" value="B4B-XH-A(LF)(SN)"/>
+      <property name="Category" value="Connectors, Interconnects"/>
+      <property name="Family" value="Rectangular Connectors - Headers, Male Pins"/>
+      <property name="DK_Datasheet_Link" value="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/jst-sales-america-inc/B4B-XH-A(LF)(SN)/455-2249-ND/1651047"/>
+      <property name="Description" value="CONN HEADER VERT 4POS 2.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="CONN HEADER VERT 4POS 2.5MM"/>
+      <property name="ki_keywords" value="455-2249-ND XH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15f5a81c-5ea1-45ea-8757-94d1f1bfa3e2</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>PCB 1</value>
+      <footprint>digikey-footprints:PinHeader_1x3_P2.5mm_Drill1.1mm</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046</field>
+        <field name="Description">CONN HEADER VERT 3POS 2.5MM</field>
+        <field name="Digi-Key_PN">455-2248-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">B3B-XH-A(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B3B-XH-A_LF__SN_" description="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Digi-Key_PN" value="455-2248-ND"/>
+      <property name="MPN" value="B3B-XH-A(LF)(SN)"/>
+      <property name="Category" value="Connectors, Interconnects"/>
+      <property name="Family" value="Rectangular Connectors - Headers, Male Pins"/>
+      <property name="DK_Datasheet_Link" value="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046"/>
+      <property name="Description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="ki_keywords" value="455-2248-ND XH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1374d22-1887-4ddd-b016-be95c5b33ebb</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>PCB 2</value>
+      <footprint>digikey-footprints:PinHeader_1x3_P2.5mm_Drill1.1mm</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046</field>
+        <field name="Description">CONN HEADER VERT 3POS 2.5MM</field>
+        <field name="Digi-Key_PN">455-2248-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">B3B-XH-A(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B3B-XH-A_LF__SN_" description="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Digi-Key_PN" value="455-2248-ND"/>
+      <property name="MPN" value="B3B-XH-A(LF)(SN)"/>
+      <property name="Category" value="Connectors, Interconnects"/>
+      <property name="Family" value="Rectangular Connectors - Headers, Male Pins"/>
+      <property name="DK_Datasheet_Link" value="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046"/>
+      <property name="Description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="ki_keywords" value="455-2248-ND XH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9ab6e0f-9947-47db-9f5e-d37c5cde1874</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>PCB 3</value>
+      <footprint>digikey-footprints:PinHeader_1x3_P2.5mm_Drill1.1mm</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046</field>
+        <field name="Description">CONN HEADER VERT 3POS 2.5MM</field>
+        <field name="Digi-Key_PN">455-2248-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">B3B-XH-A(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B3B-XH-A_LF__SN_" description="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Digi-Key_PN" value="455-2248-ND"/>
+      <property name="MPN" value="B3B-XH-A(LF)(SN)"/>
+      <property name="Category" value="Connectors, Interconnects"/>
+      <property name="Family" value="Rectangular Connectors - Headers, Male Pins"/>
+      <property name="DK_Datasheet_Link" value="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046"/>
+      <property name="Description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="ki_keywords" value="455-2248-ND XH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cbe4d94-9533-4f63-9359-eb396c258a59</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>PCB 4</value>
+      <footprint>digikey-footprints:PinHeader_1x3_P2.5mm_Drill1.1mm</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046</field>
+        <field name="Description">CONN HEADER VERT 3POS 2.5MM</field>
+        <field name="Digi-Key_PN">455-2248-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">B3B-XH-A(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B3B-XH-A_LF__SN_" description="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Digi-Key_PN" value="455-2248-ND"/>
+      <property name="MPN" value="B3B-XH-A(LF)(SN)"/>
+      <property name="Category" value="Connectors, Interconnects"/>
+      <property name="Family" value="Rectangular Connectors - Headers, Male Pins"/>
+      <property name="DK_Datasheet_Link" value="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046"/>
+      <property name="Description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="ki_keywords" value="455-2248-ND XH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7451725-a728-4748-9a10-3812d8b629d7</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>PCB 5</value>
+      <footprint>digikey-footprints:PinHeader_1x3_P2.5mm_Drill1.1mm</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046</field>
+        <field name="Description">CONN HEADER VERT 3POS 2.5MM</field>
+        <field name="Digi-Key_PN">455-2248-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">B3B-XH-A(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B3B-XH-A_LF__SN_" description="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Digi-Key_PN" value="455-2248-ND"/>
+      <property name="MPN" value="B3B-XH-A(LF)(SN)"/>
+      <property name="Category" value="Connectors, Interconnects"/>
+      <property name="Family" value="Rectangular Connectors - Headers, Male Pins"/>
+      <property name="DK_Datasheet_Link" value="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046"/>
+      <property name="Description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="ki_keywords" value="455-2248-ND XH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbbc99d8-5171-4634-9b1e-339251785466</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>PCB 6</value>
+      <footprint>digikey-footprints:PinHeader_1x3_P2.5mm_Drill1.1mm</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046</field>
+        <field name="Description">CONN HEADER VERT 3POS 2.5MM</field>
+        <field name="Digi-Key_PN">455-2248-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">B3B-XH-A(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B3B-XH-A_LF__SN_" description="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Digi-Key_PN" value="455-2248-ND"/>
+      <property name="MPN" value="B3B-XH-A(LF)(SN)"/>
+      <property name="Category" value="Connectors, Interconnects"/>
+      <property name="Family" value="Rectangular Connectors - Headers, Male Pins"/>
+      <property name="DK_Datasheet_Link" value="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046"/>
+      <property name="Description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="ki_keywords" value="455-2248-ND XH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ed61121-e00b-46a4-8c47-6f6d21fe4055</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>PCB 7</value>
+      <footprint>digikey-footprints:PinHeader_1x3_P2.5mm_Drill1.1mm</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046</field>
+        <field name="Description">CONN HEADER VERT 3POS 2.5MM</field>
+        <field name="Digi-Key_PN">455-2248-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">B3B-XH-A(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B3B-XH-A_LF__SN_" description="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Digi-Key_PN" value="455-2248-ND"/>
+      <property name="MPN" value="B3B-XH-A(LF)(SN)"/>
+      <property name="Category" value="Connectors, Interconnects"/>
+      <property name="Family" value="Rectangular Connectors - Headers, Male Pins"/>
+      <property name="DK_Datasheet_Link" value="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046"/>
+      <property name="Description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="CONN HEADER VERT 3POS 2.5MM"/>
+      <property name="ki_keywords" value="455-2248-ND XH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54ad38bf-2f21-4fed-93ee-f29e3eda5da2</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>150</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efb7dc4d-db11-4567-aac2-668d737fb166</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>180</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d73485d-3b9b-46d8-90fb-5a75465d2f8e</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>150</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34e522db-b79d-468c-84c8-359eb04823c0</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>180</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e915cc69-c4e3-49e3-bb01-5f3275416b0e</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>150</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1828a16-62a7-427f-a565-b19aea4237b7</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>56</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f58cd63b-9cc5-4348-9c04-22c30e7a5d9a</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>BCD-To-7 2</value>
+      <footprint>N16</footprint>
+      <datasheet>CD74HCT4511E</datasheet>
+      <libsource lib="2024-10-17_18-41-22" part="CD74HCT4511E" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_keywords" value="CD74HCT4511E"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f2a8954-be94-4132-a3f3-597ffe0834db</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>BCD-TO-7 1</value>
+      <footprint>N16</footprint>
+      <datasheet>CD74HCT4511E</datasheet>
+      <libsource lib="2024-10-17_18-41-22" part="CD74HCT4511E" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <property name="ki_keywords" value="CD74HCT4511E"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a4985a8-9d11-43b1-9ce2-e7fdcad96fd9</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>XIAO ESP32C3</value>
+      <footprint>113991054:MODULE_113991054</footprint>
+      <fields>
+        <field name="MANUFACTURER">Seeed Technology</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">N/A</field>
+        <field name="PARTREV">23/05/2022</field>
+        <field name="SNAPEDA_PN">113991054</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="113991054" part="113991054" description=""/>
+      <property name="PARTREV" value="23/05/2022"/>
+      <property name="MANUFACTURER" value="Seeed Technology"/>
+      <property name="SNAPEDA_PN" value="113991054"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="N/A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SDP25_MainPCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7622f2e6-6df0-4152-a89b-61fb70a15f51</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="113991054" part="113991054">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">113991054</field>
+        <field name="Footprint">113991054:MODULE_113991054</field>
+        <field name="PARTREV">23/05/2022</field>
+        <field name="MANUFACTURER">Seeed Technology</field>
+        <field name="SNAPEDA_PN">113991054</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">N/A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D0" type="bidirectional"/>
+        <pin num="2" name="D1" type="bidirectional"/>
+        <pin num="3" name="D2" type="bidirectional"/>
+        <pin num="4" name="D3" type="bidirectional"/>
+        <pin num="5" name="D4" type="bidirectional"/>
+        <pin num="6" name="D5" type="bidirectional"/>
+        <pin num="7" name="TX_D6" type="bidirectional"/>
+        <pin num="8" name="RX_D7" type="bidirectional"/>
+        <pin num="9" name="D8" type="bidirectional"/>
+        <pin num="10" name="D9" type="bidirectional"/>
+        <pin num="11" name="D10" type="bidirectional"/>
+        <pin num="12" name="VCC_3V3" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="VUSB" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="2024-10-17_18-41-22" part="CD74HCT4511E">
+      <docs>CD74HCT4511E</docs>
+      <footprints>
+        <fp>N16</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CD74HCT4511E</field>
+        <field name="Footprint">N16</field>
+        <field name="Datasheet">CD74HCT4511E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1" type="input"/>
+        <pin num="2" name="D2" type="input"/>
+        <pin num="3" name="*LT" type="unspecified"/>
+        <pin num="4" name="*BL" type="unspecified"/>
+        <pin num="5" name="*LE" type="unspecified"/>
+        <pin num="6" name="D3" type="input"/>
+        <pin num="7" name="D0" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="E" type="output"/>
+        <pin num="10" name="D" type="output"/>
+        <pin num="11" name="C" type="output"/>
+        <pin num="12" name="B" type="output"/>
+        <pin num="13" name="A" type="output"/>
+        <pin num="14" name="G" type="output"/>
+        <pin num="15" name="F" type="output"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AZ1084CD-ADJTRG1" part="AZ1084CD-ADJTRG1">
+      <description>DiodesZetex AZ1084CD-ADJTRG1, LDO Voltage Regulator, Adjustable 5A,, Maximum of 12 Vin, 3-Pin T0-252</description>
+      <docs>https://www.diodes.com//assets/Datasheets/AZ1084C.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">AZ1084CD-ADJTRG1</field>
+        <field name="Footprint">AZ1084CDADJTRG1</field>
+        <field name="Datasheet">https://www.diodes.com//assets/Datasheets/AZ1084C.pdf</field>
+        <field name="Height">2.527</field>
+        <field name="Mouser Part Number">621-AZ1084CD-ADJTRG1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZ1084CD-ADJTRG1?qs=FKu9oBikfSnJeRSpRZblQA%3D%3D</field>
+        <field name="Manufacturer_Name">Diodes Incorporated</field>
+        <field name="Manufacturer_Part_Number">AZ1084CD-ADJTRG1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="passive"/>
+        <pin num="2" name="OUTPUT" type="passive"/>
+        <pin num="3" name="INPUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B3B-XH-A_LF__SN_">
+      <description>CONN HEADER VERT 3POS 2.5MM</description>
+      <docs>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">B3B-XH-A_LF__SN_</field>
+        <field name="Footprint">digikey-footprints:PinHeader_1x3_P2.5mm_Drill1.1mm</field>
+        <field name="Datasheet">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="Digi-Key_PN">455-2248-ND</field>
+        <field name="MPN">B3B-XH-A(LF)(SN)</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046</field>
+        <field name="Description">CONN HEADER VERT 3POS 2.5MM</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B4B-XH-A_LF__SN_">
+      <description>CONN HEADER VERT 4POS 2.5MM</description>
+      <docs>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">B4B-XH-A_LF__SN_</field>
+        <field name="Footprint">digikey-footprints:PinHeader_1x4_P2.5mm_Drill1.1mm</field>
+        <field name="Datasheet">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="Digi-Key_PN">455-2249-ND</field>
+        <field name="MPN">B4B-XH-A(LF)(SN)</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B4B-XH-A(LF)(SN)/455-2249-ND/1651047</field>
+        <field name="Description">CONN HEADER VERT 4POS 2.5MM</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="M20-9990246">
+      <description>CONN HEADER VERT 2POS 2.54MM</description>
+      <docs>https://cdn.harwin.com/pdfs/M20-999.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M20-9990246</field>
+        <field name="Footprint">digikey-footprints:PinHeader_1x2_P2.54mm</field>
+        <field name="Datasheet">https://cdn.harwin.com/pdfs/M20-999.pdf</field>
+        <field name="Digi-Key_PN">952-2262-ND</field>
+        <field name="MPN">M20-9990246</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="DK_Datasheet_Link">https://cdn.harwin.com/pdfs/M20-999.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/harwin-inc/M20-9990246/952-2262-ND/3728226</field>
+        <field name="Description">CONN HEADER VERT 2POS 2.54MM</field>
+        <field name="Manufacturer">Harwin Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="113991054">
+      <uri>C:/Users/Nate/OneDrive/School/SDP/CAD Models/113991054/113991054.kicad_sym</uri>
+    </library>
+    <library logical="2024-10-17_18-41-22">
+      <uri>C:/Users/Nate/OneDrive/School/SDP/CAD Models/CD74HCT4511E/KiCADv6/2024-10-17_18-41-22.kicad_sym</uri>
+    </library>
+    <library logical="AZ1084CD-ADJTRG1">
+      <uri>C:/Users/Nate/OneDrive/School/SDP/CAD Models/LIB_AZ1084CD-ADJTRG1/AZ1084CD-ADJTRG1/KiCad/AZ1084CD-ADJTRG1.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="dk_Rectangular-Connectors-Headers-Male-Pins">
+      <uri>C:/Users/Nate/Downloads/digikey-kicad-library-master/digikey-kicad-library-master/digikey-symbols/dk_Rectangular-Connectors-Headers-Male-Pins.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="J10" pin="1" pintype="passive"/>
+      <node ref="J11" pin="1" pintype="passive"/>
+      <node ref="J12" pin="1" pintype="passive"/>
+      <node ref="J13" pin="1" pintype="passive"/>
+      <node ref="J14" pin="1" pintype="passive"/>
+      <node ref="J15" pin="1" pintype="passive"/>
+      <node ref="J16" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pintype="passive"/>
+      <node ref="J5" pin="1" pintype="passive"/>
+      <node ref="J6" pin="1" pintype="passive"/>
+      <node ref="J7" pin="1" pintype="passive"/>
+      <node ref="J8" pin="1" pintype="passive"/>
+      <node ref="J9" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="13" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="2" name="Net-(IC1-ADJ)">
+      <node ref="IC1" pin="1" pinfunction="ADJ" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(IC1-INPUT)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="3" pinfunction="INPUT" pintype="passive"/>
+      <node ref="IC2" pin="3" pinfunction="INPUT" pintype="passive"/>
+      <node ref="IC3" pin="3" pinfunction="INPUT" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="J9" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(IC1-OUTPUT)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="OUTPUT" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="14" pinfunction="VUSB" pintype="power_in"/>
+    </net>
+    <net code="5" name="Net-(IC2-ADJ)">
+      <node ref="IC2" pin="1" pinfunction="ADJ" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(IC2-OUTPUT)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="IC2" pin="2" pinfunction="OUTPUT" pintype="passive"/>
+      <node ref="J2" pin="3" pintype="passive"/>
+      <node ref="J3" pin="3" pintype="passive"/>
+      <node ref="J4" pin="3" pintype="passive"/>
+      <node ref="J5" pin="3" pintype="passive"/>
+      <node ref="J6" pin="3" pintype="passive"/>
+      <node ref="J7" pin="3" pintype="passive"/>
+      <node ref="J8" pin="3" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(IC3-ADJ)">
+      <node ref="IC3" pin="1" pinfunction="ADJ" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(IC3-OUTPUT)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="IC3" pin="2" pinfunction="OUTPUT" pintype="passive"/>
+      <node ref="J10" pin="3" pintype="passive"/>
+      <node ref="J11" pin="3" pintype="passive"/>
+      <node ref="J12" pin="3" pintype="passive"/>
+      <node ref="J13" pin="3" pintype="passive"/>
+      <node ref="J14" pin="3" pintype="passive"/>
+      <node ref="J15" pin="3" pintype="passive"/>
+      <node ref="J16" pin="3" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(U1-A)">
+      <node ref="J6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="A" pintype="output"/>
+    </net>
+    <net code="10" name="Net-(U1-B)">
+      <node ref="J5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="B" pintype="output"/>
+    </net>
+    <net code="11" name="Net-(U1-C)">
+      <node ref="J4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="C" pintype="output"/>
+    </net>
+    <net code="12" name="Net-(U1-D)">
+      <node ref="J3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="D" pintype="output"/>
+    </net>
+    <net code="13" name="Net-(U1-D0)">
+      <node ref="U1" pin="7" pinfunction="D0" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="Net-(U1-D1)">
+      <node ref="U1" pin="1" pinfunction="D1" pintype="input"/>
+      <node ref="U3" pin="9" pinfunction="D8" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="Net-(U1-D2)">
+      <node ref="U1" pin="2" pinfunction="D2" pintype="input"/>
+      <node ref="U3" pin="10" pinfunction="D9" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="Net-(U1-D3)">
+      <node ref="U1" pin="6" pinfunction="D3" pintype="input"/>
+      <node ref="U3" pin="11" pinfunction="D10" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="Net-(U1-E)">
+      <node ref="J2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="E" pintype="output"/>
+    </net>
+    <net code="18" name="Net-(U1-F)">
+      <node ref="J8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="F" pintype="output"/>
+    </net>
+    <net code="19" name="Net-(U1-G)">
+      <node ref="J7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="G" pintype="output"/>
+    </net>
+    <net code="20" name="Net-(U2-A)">
+      <node ref="J14" pin="2" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="A" pintype="output"/>
+    </net>
+    <net code="21" name="Net-(U2-B)">
+      <node ref="J13" pin="2" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="B" pintype="output"/>
+    </net>
+    <net code="22" name="Net-(U2-C)">
+      <node ref="J12" pin="2" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="C" pintype="output"/>
+    </net>
+    <net code="23" name="Net-(U2-D)">
+      <node ref="J11" pin="2" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="D" pintype="output"/>
+    </net>
+    <net code="24" name="Net-(U2-D0)">
+      <node ref="U2" pin="7" pinfunction="D0" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="D0" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="Net-(U2-D1)">
+      <node ref="U2" pin="1" pinfunction="D1" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="D3" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="Net-(U2-D2)">
+      <node ref="U2" pin="2" pinfunction="D2" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="Net-(U2-D3)">
+      <node ref="U2" pin="6" pinfunction="D3" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="D1" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="Net-(U2-E)">
+      <node ref="J10" pin="2" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="E" pintype="output"/>
+    </net>
+    <net code="29" name="Net-(U2-F)">
+      <node ref="J16" pin="2" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="F" pintype="output"/>
+    </net>
+    <net code="30" name="Net-(U2-G)">
+      <node ref="J15" pin="2" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="G" pintype="output"/>
+    </net>
+    <net code="31" name="Net-(U3-RX_D7)">
+      <node ref="J9" pin="3" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="RX_D7" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="Net-(U3-TX_D6)">
+      <node ref="J9" pin="4" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="TX_D6" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="unconnected-(U1-*BL-Pad4)">
+      <node ref="U1" pin="4" pinfunction="*BL" pintype="unspecified"/>
+    </net>
+    <net code="34" name="unconnected-(U1-*LE-Pad5)">
+      <node ref="U1" pin="5" pinfunction="*LE" pintype="unspecified"/>
+    </net>
+    <net code="35" name="unconnected-(U1-*LT-Pad3)">
+      <node ref="U1" pin="3" pinfunction="*LT" pintype="unspecified"/>
+    </net>
+    <net code="36" name="unconnected-(U2-*BL-Pad4)">
+      <node ref="U2" pin="4" pinfunction="*BL" pintype="unspecified"/>
+    </net>
+    <net code="37" name="unconnected-(U2-*LE-Pad5)">
+      <node ref="U2" pin="5" pinfunction="*LE" pintype="unspecified"/>
+    </net>
+    <net code="38" name="unconnected-(U2-*LT-Pad3)">
+      <node ref="U2" pin="3" pinfunction="*LT" pintype="unspecified"/>
+    </net>
+    <net code="39" name="unconnected-(U3-D4-Pad5)">
+      <node ref="U3" pin="5" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="unconnected-(U3-VCC_3V3-Pad12)">
+      <node ref="U3" pin="12" pinfunction="VCC_3V3" pintype="power_in"/>
+    </net>
+  </nets>
+</export>
